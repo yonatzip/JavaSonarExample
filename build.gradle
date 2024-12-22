@@ -25,5 +25,8 @@ sonar {
     properties {
         property "sonar.projectKey", "JavaSonarExample"
         property "sonar.projectName", "JavaSonarExample"
+        property "sonar.host.url", "http://localhost:9000"
+        property "sonar.source", "."
+        property "sonar.login", "squ_d75d77c9af4adf43b1bdb4e26651fdc601cf176b"
     }
 }
