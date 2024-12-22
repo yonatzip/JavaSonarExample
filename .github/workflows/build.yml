@@ -35,5 +35,5 @@ jobs:
       - name: Build and analyze
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+          SONAR_HOST_URL: https://11af-46-120-1-199.ngrok-free.app/
         run: ./gradlew build sonar --info
